@@ -1,0 +1,17 @@
+header {
+    color: white;
+    background-color: #076029;
+    padding: 20px;
+    text-align: left;
+    font-family: Helvetica
+}
+
+body {
+    background-color: rgb(27, 73, 27);
+}
+
+section {
+    margin-left: 50px;
+    font-family: Helvetica;
+    color: white; 
+}
