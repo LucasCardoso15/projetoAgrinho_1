@@ -1,17 +1,26 @@
 header {
     color: white;
-    background-color: #076029;
+    background-color: rgba(22, 96, 7, 0.452);
     padding: 20px;
     text-align: left;
     font-family: Helvetica
 }
 
 body {
-    background-color: rgb(27, 73, 27);
+    background-color: rgb(82, 138, 59);
 }
 
 section {
     margin-left: 50px;
     font-family: Helvetica;
-    color: white; 
+    color: white;
+}
+
+
+footer {
+    background-color: rgb(31, 107, 1);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Helvetica;
 }
