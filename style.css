@@ -1,19 +1,23 @@
 header {
     color: white;
-    background-color: rgba(22, 96, 7, 0.452);
+    background-color: rgb(31, 107, 1);
     padding: 20px;
-    text-align: left;
+    text-align: center;
     font-family: Helvetica
 }
 
 body {
-    background-color: rgb(82, 138, 59);
+    background-color: rgba(202, 235, 190, 0.877);
+    
 }
 
 section {
-    margin-left: 50px;
+    /*margin-left: 50px;*/
     font-family: Helvetica;
-    color: white;
+    color: black;
+    margin-bottom: 70px;
+    text-align: center;
+    
 }
 
 
@@ -24,3 +28,10 @@ footer {
     text-align: center;
     font-family: Helvetica;
 }
+ .text{
+    margin-right: 450px;
+    margin-left: 450px;
+    margin-bottom: 25px;
+    text-align: justify;
+    font-size:larger;
+ }
