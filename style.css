@@ -1,5 +1,5 @@
 
-.geologica-<uniquifier> {
+.geologica{
   font-family: "Geologica", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -15,9 +15,27 @@
 header {
     color: rgb(255, 255, 255);
     background-color: green;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     font-family: Geologica, Helvetica, Arial, sans-serif;
+    margin-top: -10px;
+    margin-left:-10px;
+    margin-right: -10px;
+    height: 1060px;
+}
+h1{
+    margin-top:40px;
+    font-size: 50px;
+}
+
+.subtítulo{
+    font-size: 25px;
+}
+
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+    color:rgb(255, 255, 255);
 }
 
 body {
@@ -31,9 +49,10 @@ section {
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    height: 950px;
+    padding-top: 90px;
+    height: 1060px;
+    margin-left:-10px;
+    margin-right: -10px;
     
 }
 .A{
@@ -55,6 +74,9 @@ footer {
     padding: 20px;
     text-align: center;
     font-family: Geologica, Helvetica, Arial, sans-serif;
+    margin-left:-10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
 }
 .text{
     margin-right: 400px;
