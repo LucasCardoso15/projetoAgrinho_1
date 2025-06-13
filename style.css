@@ -10,17 +10,16 @@
     "SHRP" 0;
 }
 
-#grad {
-  
-}
-
 header {
     color: rgb(255, 255, 255);
     background-color: green;
     background-image: url('images/Tractor_New_Holland_T6.165_plowing_(Zadobrova,_Ljubljana).jpg');
     background-repeat: no-repeat;
     background-size: 1910px;
-    -webkit-mask-image: linear-gradient(to bottom, transparent 25%, green 100%);
+    /*mask-image: linear-gradient(to bottom, transparent 25%, green 100%);
+    mask-image: linear-gradient(green, transparent);
+    mask-image: image(url('images/Tractor_New_Holland_T6.165_plowing_(Zadobrova,_Ljubljana).jpg'), green);*/
+    mask-image: linear-gradient(to bottom, transparent 30%, green 90%);
     padding: 40px;
     text-align: center;
     font-family: Geologica, Helvetica, Arial, sans-serif;
@@ -45,7 +44,7 @@ a{
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: green;
     
 }
 
