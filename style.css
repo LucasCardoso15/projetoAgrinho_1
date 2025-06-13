@@ -4,17 +4,23 @@
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
+  font-variation-settings
     "slnt" 0,
     "CRSV" 0,
     "SHRP" 0;
 }
 
-
+#grad {
+  
+}
 
 header {
     color: rgb(255, 255, 255);
     background-color: green;
+    background-image: url('images/Tractor_New_Holland_T6.165_plowing_(Zadobrova,_Ljubljana).jpg');
+    background-repeat: no-repeat;
+    background-size: 1910px;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 25%, green 100%);
     padding: 40px;
     text-align: center;
     font-family: Geologica, Helvetica, Arial, sans-serif;
