@@ -11,22 +11,22 @@
 }
 
 header {
-    color: rgb(255, 255, 255);
-    background-color: green;
-    background-image: url('images/Tractor_New_Holland_T6.165_plowing_(Zadobrova,_Ljubljana).jpg');
-    background-repeat: no-repeat;
-    background-size: 1910px;
-    /*mask-image: linear-gradient(to bottom, transparent 25%, green 100%);
-    mask-image: linear-gradient(green, transparent);
-    mask-image: image(url('images/Tractor_New_Holland_T6.165_plowing_(Zadobrova,_Ljubljana).jpg'), green);*/
-    mask-image: linear-gradient(to bottom, transparent 30%, green 90%);
+    color: white;
     padding: 40px;
+    padding-top: 40px;
     text-align: center;
     font-family: Geologica, Helvetica, Arial, sans-serif;
     margin-top: -10px;
     margin-left:-10px;
     margin-right: -10px;
-    height: 1060px;
+}
+.subheader {
+    background-color: green;
+    background-image: url('images/Tractor_New_Holland_T6.165_plowing_(Zadobrova,_Ljubljana).jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    mask-image: linear-gradient(to bottom, transparent 10%, green 90%);
+    height: 900px
 }
 h1{
     margin-top:40px;
